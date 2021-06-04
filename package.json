@@ -1,6 +1,6 @@
 {
   "name": "pp-ui-was",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "files": [
@@ -23,8 +23,8 @@
     "@testing-library/user-event": "^12.1.10",
     "@types/jest": "^26.0.15",
     "@types/node": "^12.0.0",
-    "@types/react": "^17.0.0",
-    "@types/react-dom": "^17.0.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
     "typescript": "^4.1.2",
     "web-vitals": "^1.0.1"
   },
@@ -33,8 +33,8 @@
     "react-scripts": "4.0.3"
   },
   "peerDependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
   },
   "eslintConfig": {
     "extends": [
